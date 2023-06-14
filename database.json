@@ -1,0 +1,148 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "John Doe",
+      "email": "johndoe@example.com",
+      "password": "johnd123"
+    },
+    {
+      "id": 2,
+      "fullName": "Jane Smith",
+      "email": "janesmith@example.com",
+      "password": "janes321"
+    },
+    {
+      "email": "randykhamm@nss.com",
+      "fullName": "Randy Hamm",
+      "password": "Bank-1234",
+      "id": 3
+    }
+  ],
+  "budgets": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "Monthly Budget",
+      "amount": 2000,
+      "startDate": "2023-01-01",
+      "endDate": "2023-12-31"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "name": "Monthly Budget",
+      "amount": 750,
+      "startDate": "2023-06-01",
+      "endDate": "2023-06-30"
+    }
+  ],
+  "incomes": [
+    {
+      "id": 1,
+      "budgetId": 1,
+      "name": "Salary",
+      "amount": 3000,
+      "incomeFrequencyId": "monthly",
+      "incomeCategoryId": 1
+    },
+    {
+      "id": 2,
+      "budgetId": 2,
+      "name": "Door-Dash",
+      "amount": 500,
+      "incomeFrequencyId": "monthly",
+      "incomeCategoryId": 2
+    }
+  ],
+  "expenses": [
+    {
+      "id": 1,
+      "budgetId": 1,
+      "name": "Rent",
+      "amount": 1000,
+      "expenseCategoryId": 3
+    },
+    {
+      "id": 2,
+      "budgetId": 2,
+      "name": "Groceries",
+      "amount": 300,
+      "expenseCategoryId": 4
+    }
+  ],
+  "incomeCategories": [
+    {
+      "id": 1,
+      "name": "Job"
+    },
+    {
+      "id": 2,
+      "name": "Side Hustle"
+    },
+    {
+      "id": 3,
+      "name": "Investment"
+    },
+    {
+      "id": 4,
+      "name": "Rental Income"
+    },
+    {
+      "id": 5,
+      "name": "Dividends"
+    },
+    {
+      "id": 6,
+      "name": "Allowance"
+    }
+  ],
+  "expenseCategories": [
+    {
+      "id": 1,
+      "name": "Housing"
+    },
+    {
+      "id": 2,
+      "name": "Food"
+    },
+    {
+      "id": 3,
+      "name": "Utilities"
+    },
+    {
+      "id": 4,
+      "name": "Transportation"
+    },
+    {
+      "id": 5,
+      "name": "Entertainment"
+    },
+    {
+      "id": 6,
+      "name": "Childcare"
+    },
+    {
+      "id": 7,
+      "name": "Insurance"
+    }
+  ],
+  "incomeFrequencies": [
+    {
+      "id": 1,
+      "name": "Weekly"
+    },
+    {
+      "id": 2,
+      "name": "Bi-Weekly"
+    },
+    {
+      "id": 3,
+      "name": "Monthly"
+    },
+    {
+      "id": 4,
+      "name": "Annually"
+    }
+  ]
+}
