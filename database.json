@@ -19,56 +19,224 @@
       "id": 3
     }
   ],
-  "budgets": [
-    {
-      "id": 1,
-      "userId": 1,
-      "name": "Monthly Budget",
-      "amount": 2000,
-      "startDate": "2023-01-01",
-      "endDate": "2023-12-31"
-    },
-    {
-      "id": 2,
-      "userId": 2,
-      "name": "Monthly Budget",
-      "amount": 750,
-      "startDate": "2023-06-01",
-      "endDate": "2023-06-30"
-    }
-  ],
   "incomes": [
     {
       "id": 1,
-      "budgetId": 1,
+      "userId": 1,
       "name": "Salary",
-      "amount": 3000,
-      "incomeFrequencyId": "monthly",
+      "amount": 72000,
+      "incomeFrequencyId": 4,
       "incomeCategoryId": 1
     },
     {
-      "id": 2,
-      "budgetId": 2,
-      "name": "Door-Dash",
+      "name": "Wages",
+      "amount": 600,
+      "incomeFrequencyId": 1,
+      "incomeCategoryId": 1,
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "name": "Tips",
+      "amount": 275,
+      "incomeFrequencyId": 1,
+      "incomeCategoryId": 1,
+      "userId": 2,
+      "id": 4
+    },
+    {
+      "name": "Door-dash",
       "amount": 500,
-      "incomeFrequencyId": "monthly",
-      "incomeCategoryId": 2
+      "incomeFrequencyId": 2,
+      "incomeCategoryId": 2,
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "name": "Wages",
+      "amount": 850,
+      "incomeFrequencyId": 1,
+      "incomeCategoryId": 1,
+      "userId": 3,
+      "id": 7
     }
   ],
   "expenses": [
     {
       "id": 1,
-      "budgetId": 1,
+      "userId": 1,
       "name": "Rent",
-      "amount": 1000,
-      "expenseCategoryId": 3
+      "amount": 1500,
+      "expenseFrequencyId": 3,
+      "expenseCategoryId": 1
     },
     {
-      "id": 2,
-      "budgetId": 2,
+      "name": "Car payment",
+      "amount": 500,
+      "expenseFrequencyId": 3,
+      "expenseCategoryId": 4,
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "name": "Netflix",
+      "amount": 20,
+      "expenseFrequencyId": 3,
+      "expenseCategoryId": 5,
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "name": "Phone bill",
+      "amount": 225,
+      "expenseFrequencyId": 3,
+      "expenseCategoryId": 5,
+      "userId": 1,
+      "id": 5
+    },
+    {
       "name": "Groceries",
-      "amount": 300,
-      "expenseCategoryId": 4
+      "amount": 200,
+      "expenseFrequencyId": 1,
+      "expenseCategoryId": 2,
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "name": "Hulu",
+      "amount": 25,
+      "expenseFrequencyId": 3,
+      "expenseCategoryId": 5,
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "name": "Gas money",
+      "amount": 100,
+      "expenseFrequencyId": 1,
+      "expenseCategoryId": 4,
+      "userId": 1,
+      "id": 8
+    },
+    {
+      "name": "Disney +",
+      "amount": 25,
+      "expenseFrequencyId": 3,
+      "expenseCategoryId": 5,
+      "userId": 1,
+      "id": 9
+    },
+    {
+      "name": "Rent",
+      "amount": 900,
+      "expenseFrequencyId": 3,
+      "expenseCategoryId": 1,
+      "userId": 3,
+      "id": 10
+    },
+    {
+      "name": "Electric bill",
+      "amount": 200,
+      "expenseFrequencyId": 3,
+      "expenseCategoryId": 3,
+      "userId": 3,
+      "id": 11
+    },
+    {
+      "name": "Water bill",
+      "amount": 100,
+      "expenseFrequencyId": 3,
+      "expenseCategoryId": 3,
+      "userId": 3,
+      "id": 12
+    },
+    {
+      "name": "Car payment",
+      "amount": 420,
+      "expenseFrequencyId": 3,
+      "expenseCategoryId": 4,
+      "userId": 3,
+      "id": 13
+    },
+    {
+      "name": "Car insurance",
+      "amount": 150,
+      "expenseFrequencyId": 3,
+      "expenseCategoryId": 7,
+      "userId": 3,
+      "id": 14
+    },
+    {
+      "name": "Netflix",
+      "amount": 20,
+      "expenseFrequencyId": 3,
+      "expenseCategoryId": 5,
+      "userId": 3,
+      "id": 15
+    },
+    {
+      "name": "Amazon",
+      "amount": 16,
+      "expenseFrequencyId": 3,
+      "expenseCategoryId": 5,
+      "userId": 3,
+      "id": 16
+    },
+    {
+      "name": "Phone bill",
+      "amount": 100,
+      "expenseFrequencyId": 3,
+      "expenseCategoryId": 5,
+      "userId": 3,
+      "id": 17
+    },
+    {
+      "name": "Trash",
+      "amount": 25,
+      "expenseFrequencyId": 3,
+      "expenseCategoryId": 3,
+      "userId": 3,
+      "id": 18
+    },
+    {
+      "name": "Gas",
+      "amount": 200,
+      "expenseFrequencyId": 3,
+      "expenseCategoryId": 4,
+      "userId": 3,
+      "id": 19
+    },
+    {
+      "name": "Health insurance A",
+      "amount": 250,
+      "expenseFrequencyId": 3,
+      "expenseCategoryId": 7,
+      "userId": 3,
+      "id": 20
+    },
+    {
+      "name": "Groceries",
+      "amount": 1000,
+      "expenseFrequencyId": 3,
+      "expenseCategoryId": 2,
+      "userId": 3,
+      "id": 21
+    },
+    {
+      "name": "Internet",
+      "amount": 150,
+      "expenseFrequencyId": 3,
+      "expenseCategoryId": 5,
+      "userId": 3,
+      "id": 22
+    },
+    {
+      "name": "Child support",
+      "amount": 410,
+      "expenseFrequencyId": 3,
+      "expenseCategoryId": 6,
+      "userId": 3,
+      "id": 23
     }
   ],
   "incomeCategories": [
@@ -128,6 +296,24 @@
     }
   ],
   "incomeFrequencies": [
+    {
+      "id": 1,
+      "name": "Weekly"
+    },
+    {
+      "id": 2,
+      "name": "Bi-Weekly"
+    },
+    {
+      "id": 3,
+      "name": "Monthly"
+    },
+    {
+      "id": 4,
+      "name": "Annually"
+    }
+  ],
+  "expenseFrequencies": [
     {
       "id": 1,
       "name": "Weekly"
