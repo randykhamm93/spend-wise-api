@@ -45,20 +45,28 @@
       "id": 4
     },
     {
-      "name": "Door-dash",
-      "amount": 500,
-      "incomeFrequencyId": 2,
-      "incomeCategoryId": 2,
-      "userId": 1,
-      "id": 6
-    },
-    {
       "name": "Wages",
       "amount": 850,
       "incomeFrequencyId": 1,
       "incomeCategoryId": 1,
       "userId": 3,
       "id": 7
+    },
+    {
+      "name": "Rental property",
+      "amount": 1200,
+      "incomeFrequencyId": 3,
+      "incomeCategoryId": 4,
+      "userId": 1,
+      "id": 8
+    },
+    {
+      "name": "Door-dash",
+      "amount": 500,
+      "incomeFrequencyId": 1,
+      "incomeCategoryId": 2,
+      "userId": 1,
+      "id": 9
     }
   ],
   "expenses": [
@@ -111,15 +119,7 @@
       "id": 7
     },
     {
-      "name": "Gas money",
-      "amount": 100,
-      "expenseFrequencyId": 1,
-      "expenseCategoryId": 4,
-      "userId": 1,
-      "id": 8
-    },
-    {
-      "name": "Disney +",
+      "name": "Disney+",
       "amount": 25,
       "expenseFrequencyId": 3,
       "expenseCategoryId": 5,
@@ -237,6 +237,14 @@
       "expenseCategoryId": 6,
       "userId": 3,
       "id": 23
+    },
+    {
+      "name": "Gas money",
+      "amount": 150,
+      "expenseFrequencyId": 2,
+      "expenseCategoryId": 4,
+      "userId": 1,
+      "id": 24
     }
   ],
   "incomeCategories": [
